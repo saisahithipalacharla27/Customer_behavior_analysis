@@ -25,8 +25,7 @@ FROM customer
 WHERE shipping_type in ('Standard', 'Express')
 group by shipping_type;
 
---Do subscribed customers spend more? Compare average spend and total revenue 
---between subscribers and non-subscribers.
+--Do subscribed customers spend more? Compare average spend and total revenue between subscribers and non-subscribers.
 SELECT subscription_status,
 COUNT(customer_id) as total_customers,
 ROUND(AVG(purchase_amount), 2) as avg_spend,
@@ -43,8 +42,7 @@ group by item_purchased
 order by discount_rate desc
 limit 5;
 
---Segment customers into New, Returning, and Loyal based on their total number 
---of previous purchases , and show the count of each segment?
+--Segment customers into New, Returning, and Loyal based on their total number of previous purchases , and show the count of each segment?
 WITH customer_type as (
 SELECT customer_id, previous_purchases,
 CASE
