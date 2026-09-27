@@ -68,8 +68,7 @@ An interactive Power BI dashboard was built to visualize core KPIs and behaviora
 * **Demographic Breakdown:** Revenue and order volume sliced across age brackets and gender demographics.
 * **Dynamic Slicers:** Interactive filtering by Subscription Status, Gender, Category, and Shipping Method.
 
-<img width="878" height="492" alt="dashboard" src="https://github.com/user-attachments/assets/fccd25d7-b3a9-4585-add9-be65e99da9b4" />
-
+<img width="878" height="492" alt="dashboard" src="https://github.com/user-attachments/assets/74bde77c-12a3-4aab-8f53-5b7ef53c8b1a" />
 
 ---
 
